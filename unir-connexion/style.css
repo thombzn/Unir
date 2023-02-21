@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: poppins ;
+}
+
+.titre{
+    display: flex;
+    margin-left: 2vh;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+.formulaire>button{
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0BAB5E ;
+    color: white; 
+    border-radius: 10px;
+    border: none;
+}
+
+.formulaire>textarea{
+    font-family: poppins;
+    background-color: #EEEEEE;
+    color: #A9A9A9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 3vh;
+    margin-left: 2vh;
+    color:#A9A9A9;
+    border-radius: 5%;
+    padding-top: 2vh;
+    
+}
+
+
+.saisir{
+    margin-right: 3vh;
+    margin-left: 2vh;
+    color: grey
+}
+
+
+.ou{
+    color: #0BAB5E;
+    display: flex;
+    justify-content: center;
+}
+
+.apple{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.connecter{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.logo>img{
+    width: 60px;
+}
+
+.arrow{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #0BAB5E;
+}
+
+.arrow>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
