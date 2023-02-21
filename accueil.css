@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: poppins;
+}
+
+body{
+    background-image: url(./img/pizza.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    padding-left: 4%;
+    padding-top: 8%;
+}
+
+.Ignorer{
+    font-size: 100%;
+    font-family: poppins;
+    width: 18%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 1%;
+    border: none;
+    padding-bottom: 1%;
+}
+
+.connecter{
+    font-size: 100%;
+    color: white;
+    font-family: poppins;
+    display: flex;
+    justify-content:center;
+    background-color: #0BAB5E;
+    border-radius: 10px;
+    padding-top: 1%;
+    border: none;
+    padding-bottom: 1%;
+    padding-right: 15vw;
+    padding-left: 3vw;
+}
